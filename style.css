@@ -10,7 +10,7 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    padding: 0px 64px;
+    padding: 0px 128px 0px 64px;
 }
 
 li {
@@ -27,7 +27,7 @@ li {
 
 .header p {
     color: white;
-    padding: 16px 64px;
+    padding: 16px 16px 16px 128px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -40,8 +40,9 @@ li {
 .awesome {
     background-color: #1F2937;
     display: flex;
-    padding: 64px 64px;
+    padding: 64px 128px;
     align-items: center;
+    justify-content: space-between;
     gap: 128px;
 }
 
@@ -71,5 +72,89 @@ li {
 .awesome .placeholder {
     background-color: gray;
     padding: 128px 128px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 32px 128px;
+    text-align: center;
+}
+
+.random-info-section {
+    display: flex;
+    padding: 0px 128px 64px 128px;
+    justify-content: space-between;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info-section img {
+    width: 0px;
+    padding: 64px;
+    margin: 8px 32px;
+    border: 4px solid;
+    border-radius: 16px;
+    border-color: #3882F6;
+}
+
+.random-info-section p {
+    color: rgb(61, 61, 61);
+    text-align: center;
+    margin: 8px 32px
+}
+
+.quote {
+    padding: 128px 128px 8px 128px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+#signature {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 0px 128px 128px 128px;
+    text-align: end;
+    font-weight: bolder;
+}
+
+.cto {
+    background-color: #3882F6;
+    padding: 64px;
+    margin: 128px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.cto h1 {
+    color: white;
+}
+
+.cto p{
+    color: white;
+}
+
+.cto button {
+    background-color: #3882F6;
+    width: 128px;
+    color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: white;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    padding: 64px 128px;
     text-align: center;
 }
